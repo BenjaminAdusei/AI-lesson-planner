@@ -72,7 +72,7 @@ Lesson Plan:`;
         { role: 'system', content: 'You are a helpful teaching assistant specialized in Ghana’s WAEC curriculum.' },
         { role: 'user', content: prompt },
       ],
-      model: 'llama3-70b-8192',  //  free-tier available,  amazing for reasoning
+      model: 'llama-3.3-70b-versatile',  //  free-tier available,  amazing for reasoning
       temperature: 0.5,          //  keep creativity balanced but not too loose
       max_tokens: 1500,
     });
